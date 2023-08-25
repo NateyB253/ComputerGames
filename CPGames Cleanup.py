@@ -26,7 +26,3 @@ with open('ComputerGamesOutput.csv', 'w') as file:
     for row in outrows:
         writer = csv.writer(file, lineterminator='\n')
         writer.writerow(row)
-
-""" for row in reader:
-   print(row[COL_NAME], row[COL_DEVELOPER], row[COL_PRODUCER], row[COL_GENRE], row[COL_OP_SYSTEM], row[COL_DATE])
-"""
